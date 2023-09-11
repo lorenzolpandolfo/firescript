@@ -12,7 +12,7 @@ def abrir_whatsapp(msg, user, num=None) -> None:
     else:
         num = num.strip()
 
-    url = f"https://wa.me/55{num}?text={msg}"
+    url = f"https://wa.me/{user.prefix}{num}?text={msg}"
     webbrowser.open(url)
 
     largura, altura = pyautogui.size()

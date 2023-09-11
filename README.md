@@ -10,7 +10,7 @@ A função 1 permite enviar uma mensagem personalizada para uma pessoa específi
 
 ### Função 2: Envio Automatizado a partir de um Arquivo
 
-Na função 2, o FireScript lê um arquivo chamado `numeros2.txt`, que deve estar formatado da seguinte maneira por linha:
+Na função 2, o FireScript lê um arquivo chamado `numeros.txt`, que deve estar formatado da seguinte maneira por linha:
 
 (nome), (telefone)
 
@@ -24,8 +24,8 @@ O script, então, enviará mensagens automatizadas para cada pessoa listada no a
    
    pip install -r requirements.txt
    
-4. Execute o script `firescript.py` a partir do seu terminal.
-5. Escolha a função desejada (Função 1 ou Função 2).
+4. Execute o script `main.py` a partir do seu terminal.
+5. Escolha a função desejada.
 6. Siga as instruções fornecidas pelo script para enviar mensagens pelo WhatsApp.
 
 ## Observações
